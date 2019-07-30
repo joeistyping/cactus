@@ -148,3 +148,8 @@ baidu_analytics:
 # logo and/or favicons of you website.
 gravatar:
   email: name@email.com
+
+# Fill in the Dynatrace data-config variable to enable Agentless RUM for Dynatrace
+dynatrace:
+  enabled: true
+  dtconfig: app=45411A484CDA6499|cors=1|srms=1,1,,,|featureHash=ICA2SVfjqr|dpvc=1|lastModification=1540484139616|dtVersion=10155181025135642|reportUrl=https://bf41949uvi.bf.dynatrace.com/bf|tp=500,50,0,1|rdnt=1

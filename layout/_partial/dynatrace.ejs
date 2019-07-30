@@ -1,0 +1,8 @@
+<!-- Dynatrace Agentless RUM -->
+<% if (theme.dynatrace.enabled && theme.dynatrace.dtconfig){ %>
+    <script type="text/javascript" 
+        src="https://js-cdn.dynatrace.com/jstag/1619ed8a359/ruxitagent_ICA2SVfqr_10155180913210614.js" 
+        data-dtconfig="<%= theme.dynatrace.dtconfig %>" 
+        crossorigin="anonymous">
+    </script>
+<% } %>
